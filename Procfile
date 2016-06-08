@@ -1,1 +1,1 @@
-web: gunicorn wsgi --chdir ppmltie --log-file -
+web: gunicorn wsgi --log-file -
