@@ -1,0 +1,10 @@
+<!doctype html>
+<title>ppmltie</title>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+<!-- todo organize js imports better -->
+<script type=text/javascript src="{{ url_for('static', filename='bower_components/jquery/dist/jquery.js') }}"></script>
+<div class="page">
+  <h1>ppmltie</h1>
+  {% block body %}{% endblock %}
+</div>
