@@ -7,7 +7,7 @@ application = Flask(__name__)
 
 @application.route("/")
 def index():
-    return redirect(url_for('map'))
+    return redirect(url_for('station_map'))
 
 @application.route("/map")
 def station_map():
